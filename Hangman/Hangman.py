@@ -34,7 +34,7 @@ while not game_over:
     print(display)
     if guess not in chosen_word:
         lives -= 1
-        print(f"{guess} is not in choosen Word. You lose one life mann ")
+        print(f"{guess} is not in {chosen_word}. You lose one life mann ")
         if lives==0:
             game_over = True
             print(f"You lose\n {stages[lives]} ")
