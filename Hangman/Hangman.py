@@ -16,7 +16,7 @@ print("         ")
 print(placeholder)
 print("         ")
 
-lives = 6
+lives=6
 game_over= False
 correct=[]
 while not game_over:
