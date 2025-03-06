@@ -32,7 +32,7 @@ while is_gameon:
         screen.bgcolor(r.choice(["black", "white","brown"]))
 
     for cars in car.cars:
-        if cars.distance(player) < 20:
+        if cars.distance(player) < 25:
             is_gameon = False
             score.game_over()
             break
